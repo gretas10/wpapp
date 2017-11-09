@@ -1,0 +1,220 @@
+@font-face { font-family: Cinzel Decorative; src: url('cinzel.ttf'); }
+
+@media(max-width:768px) {
+
+#m {
+    display: none;
+}
+
+input{
+    display: none;
+}
+ 
+}
+
+
+ul {
+    color: white;
+    text-decoration: none;
+    font-family: 'Cinzel Decorative', 'Arial';
+    font-size: 11px;
+    
+    
+}
+
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    color: #f1b811;
+    background-image: url(kep.jpg);
+}
+
+
+h2{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Cinzel Decorative', 'Arial';
+    color: #fff;
+}
+
+h3{
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Cinzel Decorative', 'Arial';
+    color: #fff;
+}
+
+
+h4{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Cinzel Decorative', 'Arial';
+    color: #fff;
+}
+
+h1{
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Cinzel Decorative', 'Arial';
+    margin-top: 20px;
+    color: white;
+    width: 100%;
+}
+
+p{
+    color: papayawhip;
+    font-size: 12px;
+    width: 800;
+    text-align: center;
+    font-family: 'Cinzel Decorative', 'Arial';
+
+}
+
+p a{
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    margin-left: 70%;
+    text-align: right;
+    font-family: 'Cinzel Decorative', 'Arial';
+
+}
+
+p a:hover{
+   font-size: 9px;
+    text-decoration: underline;
+    
+
+}
+
+.info{
+    border-radius: 15px;
+    background-color: rgba(0,0,0,.2);
+
+}
+
+hr{
+    color: papayawhip;
+    text-align: center;
+    width: 80%;
+
+}
+
+div{
+    color: #fff;
+    text-align: center;
+    font-family: 'Cinzel Decorative', 'Arial';
+    font-size: 15px;
+
+}
+ 
+ 
+   #m:checked ~ a{
+    display: block;
+    margin-bottom: 1%;
+       margin-right: 5%;
+}
+
+#m {
+    display: none;
+}
+    
+    nav a{
+   display: none;
+    text-decoration:none;
+    color:white;
+    margin-top: 2%;
+        margin-left: 2%;
+        text-align: left;
+        font-size: 18px;
+        
+    
+}
+    nav{
+        
+        width: 100%;
+        margin-bottom: 10%;
+        border-radius: 6px;
+        background-image: url(bar.jpg);
+        text-shadow: 1px 1px 1px black, 0 0 25px darkgreen, 0 0 2px black;  
+        box-shadow: 1px 1px 2px black, 0 0 50px grey, 0 0 50px black;  
+}
+
+nav a{
+    margin: 2%;
+    text-decoration: none;
+    font-family:'Open Sans','Helvetica Neue',Arial,sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #fff;
+    -webkit- transition: all .45s;
+    -moz- transition: all .45s;
+    transition: all .45s;
+    
+}
+
+nav a:hover{
+   color:#fff;
+    font-size: 19px;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px black, 0 0 55px black, 0 0 8px white;
+    
+}
+    
+.tags{
+    color: white;
+    padding: 1%;
+}
+
+
+.tags:hover {
+   text-decoration: underline;
+    font-size: 10px;
+    
+}
+
+    
+    .music{
+        width: 100%;
+        border-radius: 15px;
+    }
+
+     .details{
+        font-size: 13px;
+    }
+    
+    #single{
+         background-color: rgba(0,0,0,.2);
+         border-radius: 15px;
+    }
+    
+    #huset{
+         width: 35%;
+        margin-left: 1%;
+        
+    }
+
+img{
+         width: 100%;
+        
+    }
+
+#bastard{
+       border-radius: 15%;
+        
+    }
+
+#up{
+       width: 20%;
+    margin-left: 75%;
+    margin-top: 15%;
+        
+    }
+    
+    
+    
+     
+    }
+        
