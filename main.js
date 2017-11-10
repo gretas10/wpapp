@@ -45,7 +45,9 @@ function showSingleEvent(json){
     document.querySelector("#single h1").textContent=json.title.rendered;
     document.querySelector("#single .price span").textContent=json.acf.ticket_price;
     document.querySelector("#single .details").innerHTML=json.acf.event_info;
-
+    document.querySelector("#single .date").textContent=json.acf.date;
+    document.querySelector("#single .time").textContent=json.acf.time;
+    document.querySelector("#single .location span").textContent=json.acf.location;
     
 }
 
@@ -64,7 +66,7 @@ function showEvents(data){
         let price = clone.querySelector(".price span");
         let img = clone.querySelector("img");
         let link = clone.querySelector("a.read-more");
-       let iframe = clone.querySelector("iframe");
+      
         
         title.textContent = theEvent.title.rendered;
         date.textContent = theEvent.acf.date;
@@ -77,9 +79,6 @@ function showEvents(data){
         img.setAttribute("src", theEvent._embedded["wp:featuredmedia"][0].media_details.sizes.medium.source_url)
             }
         
-        if(theEvent){
-        iframe.setAttribute = theEvent.content.rendered;
-            }
         //console.log(theEvent.content.rendered)
         
         link.setAttribute("href", "music.html?id="+theEvent.id);
